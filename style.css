@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+li {
+  list-style-type: none;
+}
+.form-check-input {
+  margin-right: 0.5rem;
+}
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
